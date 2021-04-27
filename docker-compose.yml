@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+ housy-frontend:
+  container_name: housy-frontend
+  image: aureezzhenx/housy-frontend:v1.0.0
+  ports:
+   - "3000:3000"
