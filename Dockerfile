@@ -8,5 +8,5 @@ COPY . .
 RUN npm i
 RUN npm run build
 
-EXPOSE 5000
-CMD ["npm","start"]
+EXPOSE 3000
+CMD ["node","node_modules/react-scripts/scripts/start.js"]
