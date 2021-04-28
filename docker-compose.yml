@@ -3,6 +3,8 @@ version: "3.9"
 services:
  housy-frontend:
   container_name: housy-frontend
-  image: aureezzhenx/housy-frontend:v1.0.0
+  image: aureezzhenx/housy-frontend
   ports:
    - "3000:3000"
+  environment:
+   - NODE_ENV=production

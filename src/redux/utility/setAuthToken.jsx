@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "http://api.jouzie.onlinecamp.id:5000",
+  baseURL: "https://api.jouzie.onlinecamp.id"
 });
 
 const setAuth = (token) => {
