@@ -1,5 +1,5 @@
 # waysgallery-frontend
 DumbWays.id - Bootcamp DevOps Batch 4
-test cicdd
+test d
 
 RUN PRODUCTION: node index.js
